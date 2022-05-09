@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89142ffe.css",
+    "main.js": "/static/js/main.670ad6ee.js",
+    "static/media/banner_image.png": "/static/media/banner_image.72744dcee5f0160d553a.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/test_slider_bg.png": "/static/media/test_slider_bg.3aa6df29c76f8568d120.png",
+    "static/media/app_intro_bg.png": "/static/media/app_intro_bg.2618dae8005882d415ff.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/cta_bg.png": "/static/media/cta_bg.4a48884b068787269c60.png",
+    "index.html": "/index.html",
+    "main.89142ffe.css.map": "/static/css/main.89142ffe.css.map",
+    "main.670ad6ee.js.map": "/static/js/main.670ad6ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89142ffe.css",
+    "static/js/main.670ad6ee.js"
+  ]
+}
