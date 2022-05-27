@@ -1,48 +1,39 @@
 export const creationTools = [
     {
         title: "3D Modelling",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/3D Modelling/logo.png',
+        description: "Create 3d models (glb, usdz) with several input images or an input video with one click. Deployment options available. ",
+        logo: "/images/creation/3D Modelling/logo.png",
         rating: 5,
-        link: 'https://console.akool.com/3d'
-
-    },
-    {
+        link: "https://console.akool.com/3d"
+    }, {
         title: "3D Movie",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/3D Movie/logo.png',
+        description: "Convert regular videos into 3D stereo video for 3D realistic viewing experiences. State of the art AI powered fully automated solution. ",
+        logo: "/images/creation/3D Movie/logo.png",
         rating: 5,
-    },
-    {
+        link: "https://console.akool.com/video"
+    }, {
         title: "Face Swap",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/Face Swap/logo.png',
+        description: "Swap faces between arbitrary faces for images and videos. Realistic and smooth results. Best usage for advertisements and commerce content localization.",
+        logo: "/images/creation/Face Swap/logo.png",
         rating: 5,
-        link: 'https://console.akool.com/video'
-
-    },
-    {
-        title: "SaaS App Creation Tools",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/SaaS App Creation Tools/logo.png',
+        link: "https://faceswap.akool.com"
+    }, {
+        title: "SaaS App Creation Tools (Coming)",
+        description: "Coming soon! Low code SaaS application building tool.",
+        logo: "/images/creation/SaaS App Creation Tools/logo.png",
         rating: 5,
-    },
-    {
-        title: "Text to Photo",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/Text to Photo/logo.png',
+        link: ""
+    }, {
+        title: "Text to Photo (Coming)",
+        description: "Coming soon! Convert any text into art photos with deep learning. Generating arts is so easy.",
+        logo: "/images/creation/Text to Photo/logo.png",
         rating: 5,
-    },
-    {
-        title: "Virtual Human",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/Virtual Human/logo.png',
+        link: ""
+    }, {
+        title: "Virtual Human (Coming)",
+        description: "Coming soon! Create your avatar with one photo and simple selections. Animate and use it anywhere.",
+        logo: "/images/creation/Virtual Human/logo.png",
         rating: 5,
-    },
-    {
-        title: "Virtual Try On",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
-        logo: '/images/creation/Virtual Try On/logo.png',
-        rating: 5,
-    },
+        link: ""
+    }
 ]
