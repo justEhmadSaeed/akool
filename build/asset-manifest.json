@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2199ccbf.css",
-    "main.js": "/static/js/main.55e4bc44.js",
+    "main.css": "/static/css/main.423aad0d.css",
+    "main.js": "/static/js/main.045dcfc9.js",
     "static/media/banner_image.png": "/static/media/banner_image.72744dcee5f0160d553a.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/test_slider_bg.png": "/static/media/test_slider_bg.3aa6df29c76f8568d120.png",
@@ -12,11 +12,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/cta_bg.png": "/static/media/cta_bg.4a48884b068787269c60.png",
     "index.html": "/index.html",
-    "main.2199ccbf.css.map": "/static/css/main.2199ccbf.css.map",
-    "main.55e4bc44.js.map": "/static/js/main.55e4bc44.js.map"
+    "main.423aad0d.css.map": "/static/css/main.423aad0d.css.map",
+    "main.045dcfc9.js.map": "/static/js/main.045dcfc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2199ccbf.css",
-    "static/js/main.55e4bc44.js"
+    "static/css/main.423aad0d.css",
+    "static/js/main.045dcfc9.js"
   ]
 }
