@@ -18,7 +18,14 @@ router.get('/3d', async (req, res) => {
 
 router.get('/creation', async (req, res) => {
     const creationTools = await CreationTool.find({})
-    res.send(creationTools)
+    res.send([{
+        title: "3D Modelling",
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam.',
+        logo: '/images/creation/3D Modelling/logo.png',
+        rating: 5,
+        link: 'https://console.akool.com/3d'
+
+    },])
 })
 
 router.get('/recognition', async (req, res) => {
