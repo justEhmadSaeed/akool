@@ -7,7 +7,7 @@ import _3dApp from './models/3dAppModel.js'
 import connectDB from './config/db.js'
 import { creationTools } from './data/creationTools.js'
 import { recognitionTools } from './data/recognitionTools.js'
-import { toolDetails } from './data/toolDetails.js'
+import { toolDetails } from './data/t`oolDetails.js'
 import { topApps } from './data/topApps.js'
 import { _3dApps } from './data/3dApps.js'
 
