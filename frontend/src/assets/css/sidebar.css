@@ -1,0 +1,57 @@
+.offcanva {
+    position: fixed;
+    width: 320px;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    background: #099DFD;
+    z-index: 99999999;
+    transition: .3s;
+}
+
+.offcanva-menu {
+    margin-top: 70px;
+}
+
+.cross {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.offcanva-menu ul li {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.cross a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.offcanva-menu ul li a {
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 500;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offcanva-menu ul li[aria-expanded="true"] a i {
+    transform: rotate(180deg);
+    transition: .3s;
+}
+
+.offcanva-menu ul li[aria-expanded="false"] a i {
+    transform: rotate(0deg);
+    transition: .3s;
+}
+
+.offcanva-menu ul li a i {
+    font-size: 20px;
+}
+
+.offcanva.active {
+    left: 0;
+}

@@ -3,6 +3,7 @@ import './assets/css/style.css'
 import './assets/css/launch.css'
 import './assets/css/app.intro.css'
 import './assets/css/navbar.css'
+import './assets/css/sidebar.css'
 import './assets/css/media.css'
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
