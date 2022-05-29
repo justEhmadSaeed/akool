@@ -7,10 +7,10 @@ import TopApp from '../models/topAppModel.js'
 const router = express.Router()
 
 const getCreationTools = async () => {
-    return (await CreationTool.find({}, { title: 1, description: 1, rating: 1, link: 1 }))
+    return (await CreationTool.find({}, { title: 1, description: 1, rating: 1, link: 1, logo: 1 }))
 }
 const getRecognitionTools = async () => {
-    return (await RecognitionTool.find({}, { title: 1, description: 1, rating: 1, link: 1 }))
+    return (await RecognitionTool.find({}, { title: 1, description: 1, rating: 1, link: 1, logo: 1 }))
 }
 
 router.get('/top', async (req, res) => {
@@ -39,8 +39,13 @@ router.post('/find/:title', async (req, res) => {
         const creationTools = await CreationTool.find({ title })
         if (creationTools.length > 0)
             res.send(creationTools[0])
-        else
-            res.send("null")
+        else {
+            const recognitionTools = await RecognitionTool.find({ title })
+            if (recognitionTools.length > 0)
+                res.send(recognitionTools[0])
+            else
+                res.send('null')
+        }
     } catch (error) {
         res.send(error)
     }

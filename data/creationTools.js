@@ -150,7 +150,7 @@ export const creationTools =
         {
             title: "SaaS App Creation Tools (Coming)",
             description: "Coming soon! Low code SaaS application building tool.",
-            logo: "/images/creation/Face Swap/logo.png",
+            logo: "/images/creation/SaaS App Creation Tools/logo.png",
             rating: 5,
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             aboutImage: "/images/app_intro_about.png",
@@ -198,7 +198,7 @@ export const creationTools =
         {
             title: "Text to Photo (Coming)",
             description: "Coming soon! Convert any text into art photos with deep learning. Generating arts is so easy.",
-            logo: "/images/creation/Face Swap/logo.png",
+            logo: "/images/creation/Text to Photo/logo.png",
             rating: 5,
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             aboutImage: "/images/app_intro_about.png",
@@ -246,7 +246,7 @@ export const creationTools =
         {
             title: "Virtual Human (Coming)",
             description: "Coming soon! Create your avatar with one photo and simple selections. Animate and use it anywhere.",
-            logo: "/images/creation/Face Swap/logo.png",
+            logo: "/images/creation/Virtual Human/logo.png",
             rating: 5,
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             aboutImage: "/images/app_intro_about.png",
