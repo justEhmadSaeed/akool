@@ -71,7 +71,7 @@ const AppIntroScreen = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="download_btn m-auto text-center">
-                                    <a href={product.downloadLink} title="download">Download an App</a>
+                                    <a href={product.link} className={!product.link && 'disabled'} title="download">Launch App</a>
                                 </div>
                             </div>
 

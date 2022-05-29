@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 
 #notfound {
   position: relative;
