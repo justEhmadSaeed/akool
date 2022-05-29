@@ -13,7 +13,9 @@ const RegisterScreen = () => {
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [showPassword, setShowPassword] = useState(false)
     const [confirmPassword, setConfirmPassword] = useState('')
+    const [showConfirmPassword, setShowConfirmPassword] = useState(false)
     const [loading, setLoading] = useState(false)
     const [confirmRegistration, setConfirmRegistration] = useState(false)
     const [toastMessage, setToastMessage] = useState('')
@@ -30,8 +32,21 @@ const RegisterScreen = () => {
     const handleRegister = (e) => {
         e.preventDefault()
         setLoading(true)
-        if (!firstName.trim() || !lastName.trim()) {
+        let passwordPattern = /^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9]).*$/;
+        if (!firstName.trim() && !lastName.trim()) {
             timeoutToastMessage('Please write your first and last name!')
+            setLoading(false)
+        }
+        else if (!firstName.trim()) {
+            timeoutToastMessage('Please write your first name!')
+            setLoading(false)
+        }
+        else if (!lastName.trim()) {
+            timeoutToastMessage('Please write your last name!')
+            setLoading(false)
+        }
+        else if (!passwordPattern.test(password)) {
+            timeoutToastMessage("Password should contain one letter, one number, and longer than 3.")
             setLoading(false)
         }
         else if (password !== confirmPassword) {
@@ -127,11 +142,13 @@ const RegisterScreen = () => {
                         <input value={lastName} onChange={(e) => { setLastName(e.target.value) }} type="text" placeholder="Last Name" />
                     </div>
                     <input value={email} onChange={(e) => { setEmail(e.target.value) }} name="email" type="Email" placeholder="Your Email" />
-                    <div className="input-group">
-                        <input value={password} onChange={(e) => { setPassword(e.target.value) }} className="form-control" type="password" placeholder="Password" />
+                    <div className="input-group position-relative">
+                        <input value={password} onChange={(e) => { setPassword(e.target.value) }} className="form-control" type={showPassword ? 'text' : 'password'} placeholder="Password" />
+                        <i onClick={() => showPassword ? setShowPassword(false) : setShowPassword(true)} className="fa fa-eye-slash position-absolute fs-5" style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
                     </div>
-                    <div className="input-group mb-3">
-                        <input value={confirmPassword} onChange={(e) => { setConfirmPassword(e.target.value) }} className="form-control" type="password" placeholder="Confirm Password" />
+                    <div className="input-group mb-3 position-relative">
+                        <input value={confirmPassword} onChange={(e) => { setConfirmPassword(e.target.value) }} className="form-control" type={showConfirmPassword ? 'text' : 'password'} placeholder="Confirm Password" />
+                        <i onClick={() => showConfirmPassword ? setShowConfirmPassword(false) : setShowConfirmPassword(true)} className="fa fa-eye-slash position-absolute fs-5" style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
                     </div>
                     {confirmRegistration &&
                         <div className="alert alert-success " role="alert">
@@ -139,10 +156,10 @@ const RegisterScreen = () => {
                         </div>
                     }
                 </div>
-                <div className="form-group my-2">
+                {/* <div className="form-group my-2">
                     <input type="checkbox" style={{ width: '1rem', height: '1rem' }} id="css" />
                     <label className='mx-2 text-white fs-5' htmlFor="css">Remember Me </label>
-                </div>
+                </div> */}
 
                 <div className="log-bt">
                     <button type="submit">

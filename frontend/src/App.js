@@ -22,6 +22,7 @@ import MetaverseScreen from './Screens/MetaverseScreen'
 import { OtpVerification } from './Screens/OtpVerification'
 import Error from './Components/Error'
 import { Profile } from './Components/Profile'
+import EntertainmentScreen from './Screens/EntertainmentScreen'
 
 const App = () => {
   const userLoggedIn = useSelector(state => state.userInfo)
@@ -45,6 +46,7 @@ const App = () => {
           <Route path='smart_camera' element={<SmartCameraScreen />} />
           <Route path='metaverse' element={<MetaverseScreen />} />
           <Route path='commerce' element={<CommerceScreen />} />
+          <Route path='entertainment' element={<EntertainmentScreen />} />
         </Route>
         <Route path='/' element={<Navbar hideNavItems />}>
           <Route path='login' element={<LoginScreen />} />
