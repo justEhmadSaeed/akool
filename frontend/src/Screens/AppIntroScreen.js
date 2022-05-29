@@ -153,48 +153,49 @@ const AppIntroScreen = () => {
                     </section>
 
 
-
-                    <section className="app_intro_feature">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6 m-auto">
-                                    <div className="heading_text text-center">
-                                        <h3 className='app-intro-h3'>Why Akool Marketplace</h3>
-                                        <div></div>
+                    {
+                        product.features &&
+                        <section className="app_intro_feature">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-6 m-auto">
+                                        <div className="heading_text text-center">
+                                            <h3 className='app-intro-h3'>Why Akool {product.title}</h3>
+                                            <div></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div className="feature_cards">
-                                    {
-                                        product.features && product.features.map((feature, index) =>
-                                            <div className={"feature_card d-flex align-items-start m-2"}>
-                                                <div className="image_section">
-                                                    <img src="/images/app_intro_feature.png" alt="feature" />
-                                                </div>
-                                                <div className="text_section">
-                                                    <h3 className='app-intro-h3'>{feature.title}</h3>
-                                                    <p>{feature.description}</p>
-                                                </div>
-                                            </div>)
-                                    }
+                            <div className="container-fluid">
+                                <div className="row">
+                                    <div className="feature_cards">
+                                        {
+                                            product.features.map((feature, index) =>
+                                                <div className={"feature_card d-flex align-items-start m-2"}>
+                                                    <div className="image_section">
+                                                        <img src="/images/app_intro_feature.png" alt="feature" />
+                                                    </div>
+                                                    <div className="text_section">
+                                                        <h3 className='app-intro-h3'>{feature.title}</h3>
+                                                        <p>{feature.description}</p>
+                                                    </div>
+                                                </div>)
+                                        }
+
+                                    </div>
 
                                 </div>
-
                             </div>
-                        </div>
-                    </section>
+                        </section>}
 
                     <section id="cta_section">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6 m-auto">
                                     <div className="heading_text text-center">
-                                        <h3 className='app-intro-h3'>CTA Section</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                        <a href="true">Download an App</a>
+                                        <h3 className='app-intro-h3'>Build with Akool</h3>
+                                        <p>Start building for free, on-premises option available!</p>
+                                        <a href="true">Launch App</a>
                                     </div>
                                 </div>
                             </div>

@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.profile-bg {
+    background-color: #f8faff;
+    height: 40rem;
+}
+
 a,
 a:hover {
     text-decoration: none;

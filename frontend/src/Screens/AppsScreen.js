@@ -120,7 +120,7 @@ const AppsScreen = () => {
                 </div>
                 <div className="last_text_part">
                     <h3 className='launch-h3'>Build With Akool</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua. </p>
+                    <p>Start building for free, on-premises option available!</p>
                     <div className="buttons d-flex">
                         <Link to="/register">Register</Link>
                         <Link to="/login">Login</Link>
@@ -167,7 +167,7 @@ const AppsScreen = () => {
                 <div className="container">
                     <div className="row">
                         <div className="copyright_section_content">
-                            <div className="social_links">
+                            {/* <div className="social_links">
                                 <ul>
                                     <li>
                                         <a href="true" title="Facebook">
@@ -194,9 +194,9 @@ const AppsScreen = () => {
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="copyright_text">
-                                <p>© 2021 by Akool Ltd. All rights reserved.</p>
+                                <p>© 2022 by Akool Inc.</p>
                             </div>
 
                         </div>

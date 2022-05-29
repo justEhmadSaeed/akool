@@ -44,10 +44,9 @@ const Tool = ({ title, logo, description, rating, maintainHistory = true, launch
                     <div className="image_section">
                         <img src={logo} alt='logo' />
                     </div>
-                    <div style={{ position: 'absolute', border: '1px solid #000C3E', top: '0', right: '1rem', borderRadius: '50%', width: '25px', height: '25px', justifyContent: 'center', display: 'flex', alignItems: 'center', color: 'black' }}>
+                    {/* <div style={{ position: 'absolute', border: '1px solid #000C3E', top: '0', right: '1rem', borderRadius: '50%', width: '25px', height: '25px', justifyContent: 'center', display: 'flex', alignItems: 'center', color: 'black' }}>
                         <i className="fa fa-heart"></i>
-                    </div>
-
+                    </div> */}
                 </div>
                 <div className="bottom_section">
                     <h3 className='launch-h3'>{title}</h3>
@@ -71,11 +70,10 @@ const Tool = ({ title, logo, description, rating, maintainHistory = true, launch
                             <Button onClick={addToUsed} className='my-2 w-100' style={{ backgroundColor: '#000C3E' }} disabled>
                                 Launch
                             </Button>
-
                     }
                 </div>
             </div>
-        </div >
+        </div>
     )
 
 }

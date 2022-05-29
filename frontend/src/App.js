@@ -2,6 +2,7 @@ import './assets/css/bootstrap.min.css'
 import './assets/css/style.css'
 import './assets/css/launch.css'
 import './assets/css/app.intro.css'
+import './assets/css/navbar.css'
 import './assets/css/media.css'
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -19,6 +20,7 @@ import SmartCameraScreen from './Screens/SmartCameraScreen'
 import MetaverseScreen from './Screens/MetaverseScreen'
 import { OtpVerification } from './Screens/OtpVerification'
 import Error from './Components/Error'
+import { Profile } from './Components/Profile'
 
 const App = () => {
   const userLoggedIn = useSelector(state => state.userInfo)
@@ -49,6 +51,7 @@ const App = () => {
         </Route>
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Error />} />
+        <Route path="profile" element={<Profile />} />
 
       </Routes>
     </BrowserRouter>
