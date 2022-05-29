@@ -22,6 +22,7 @@ const AppIntroScreen = () => {
         getProducts()
     }, [])
 
+    console.log(product);
 
     return (
 

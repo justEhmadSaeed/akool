@@ -26,7 +26,15 @@ const toolDetailSchema = mongoose.Schema(
             type: String,
             required: true
         },
+        aboutImage: {
+            type: String,
+            required: true
+        },
         goal: {
+            type: String,
+            required: true
+        },
+        goalImage: {
             type: String,
             required: true
         },
@@ -43,6 +51,12 @@ const toolDetailSchema = mongoose.Schema(
             {
                 question: String,
                 answer: String,
+            },
+        ],
+        features: [
+            {
+                title: String,
+                description: String,
             },
         ]
     },

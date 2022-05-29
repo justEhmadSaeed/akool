@@ -19,13 +19,11 @@ const importData = async () => {
     try {
         await CreationTool.deleteMany()
         await RecognitionTool.deleteMany()
-        await ToolDetail.deleteMany()
         await TopApp.deleteMany()
         await _3dApp.deleteMany()
 
         await CreationTool.insertMany(creationTools)
         await RecognitionTool.insertMany(recognitionTools)
-        await ToolDetail.insertMany(toolDetails)
         await TopApp.insertMany(topApps)
         await _3dApp.insertMany(_3dApps)
 
@@ -41,7 +39,6 @@ const destroyData = async () => {
     try {
         await CreationTool.deleteMany()
         await RecognitionTool.deleteMany()
-        await ToolDetail.deleteMany()
         await TopApp.deleteMany()
         await _3dApp.deleteMany()
 
