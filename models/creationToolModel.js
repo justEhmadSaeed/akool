@@ -54,7 +54,7 @@ const creationToolSchema = mongoose.Schema(
                 title: String,
                 description: String,
             },
-        ]
+        ],
     },
     {
         timestamps: true,
