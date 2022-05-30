@@ -56,6 +56,7 @@ const Navbar = ({ hideNavItems }) => {
                                                 </ul>
                                             </li>
                                             <li><a href="https://market.akool.com/">Market</a></li>
+                                            <li><Link to="/">Apps</Link></li>
                                             <li><a href="https://akool.com/Company.html">Company</a></li>
                                         </ul>
                                     </div>
@@ -108,13 +109,13 @@ const Navbar = ({ hideNavItems }) => {
                                     </div>
                                 </div>
                                 <li className="nav-item">
-                                    <a className="nav-link" href='true'>Pricing</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href='true'>Apps</a>
+                                    <a className="nav-link" href='true'>Solution</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href='true'>Market</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href='true'>Apps</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href='true'>Company</a>
