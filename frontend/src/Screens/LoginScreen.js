@@ -106,7 +106,7 @@ const LoginScreen = () => {
                 </div>
             </div>
         </div>
-        <div className="login-form rounded" style={{ height: '34rem' }} data-aos="zoom-in" data-aos-delay={650} data-aos-duration={2300}>
+        <div className="login-form rounded" style={{ height: '40rem' }} data-aos="zoom-in" data-aos-delay={650} data-aos-duration={2300}>
             <div className="login-form-title">
                 <h4>Login</h4>
             </div>

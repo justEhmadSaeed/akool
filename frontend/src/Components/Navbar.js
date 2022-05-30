@@ -60,7 +60,7 @@ const Navbar = ({ hideNavItems }) => {
                                         </ul>
                                     </div>
                                     <div className="header-btn-wrap reding-bt">
-                                        <Link to="/register" className={(activeRoute == '/register' ? 'active_btn ' : '') + 'auth_btn  pc-bt'} style={{ backgroundColor: '#5ef2' }}>Register</Link>
+                                        <Link to="/register" className={(activeRoute == '/register' ? 'active_btn ' : '') + 'auth_btn  pc-bt'} style={{ backgroundColor: '#000b3e' }}>Register</Link>
                                         <Link to="/login" className={(activeRoute == '/login' ? 'active_btn ' : '') + 'auth_btn  pc-bt'}>Login</Link>
                                     </div>
                                 </div>
