@@ -15,7 +15,6 @@ const EntertainmentScreen = () =>
         <Helmet>
             <title>Entertainment</title>
         </Helmet>
-        <Navbar />
         <section id="banner">
             <div className="container">
                 <div className="row">

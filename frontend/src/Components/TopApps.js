@@ -10,7 +10,7 @@ const TopApps = () => {
     const [loading, setLoading] = useState(true)
 
     const getTopTools = async () => {
-        const { data } = await axios.get('/api/tools/top')
+        const { data } = await axios.get('/api/tools/creation')
         setTopApps(data)
         setLoading(false)
     }

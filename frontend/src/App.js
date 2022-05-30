@@ -42,7 +42,7 @@ const App = () => {
           <Route path=':title' element={<AppIntroScreen />} />
           <Route path='otp' element={<OtpVerification />} />
         </Route>
-        <Route path='/solutions' >
+        <Route path='/solutions' element={<Navbar />} >
           <Route path='smart_camera' element={<SmartCameraScreen />} />
           <Route path='metaverse' element={<MetaverseScreen />} />
           <Route path='commerce' element={<CommerceScreen />} />

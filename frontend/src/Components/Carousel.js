@@ -2,6 +2,7 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import Tool from './Tool'
 
 const Carousel = ({ data = [], white = false, }) => {
     // console.log(white);
@@ -15,27 +16,10 @@ const Carousel = ({ data = [], white = false, }) => {
             responsive={{ 0: { items: 1, }, 700: { items: 2, }, 1080: { items: 3 } }}
         >
 
+
             {data.map(item =>
-                <div className="slider_card first_slider_card">
-                    <div className="top_section">
-                        <div className="image_section">
-                            <img src={item.logo} alt="slider" />
-                        </div>
-                        <div className="heart_icon_section">
-                            <i className="fa fa-heart"></i>
-                        </div>
-                    </div>
-                    <div className="bottom_section">
-                        <h3>{item.title}</h3>
-                        <p>{item.description}</p>
-                        <div className="rating_section d-flex align-items-baseline">
-                            <h5 className="mb-0">{item.rating}</h5>
-                            <div className="star_section">
-                                {Array(item.rating).fill(1).map(x => <span><i className="fa fa-star" aria-hidden="true"></i></span>)}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Tool key={item._id} title={item.title} description={item.description} rating={item.rating} logo={item.logo} launchLink={item.link} />
+
             )}
             {/* <div className="slider_card first_slider_card">
                 <div className="top_section">

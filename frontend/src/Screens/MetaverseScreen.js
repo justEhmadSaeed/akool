@@ -15,7 +15,6 @@ const MetaverseScreen = () =>
         <Helmet>
             <title>Smart Camera</title>
         </Helmet>
-        <Navbar />
         <section id="banner">
             <div className="container">
                 <div className="row">

@@ -13,7 +13,7 @@
 a,
 a:hover {
     text-decoration: none;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 h1,
@@ -179,7 +179,7 @@ ol {
 
 .go_to_bottom_icon {
     position: absolute;
-    bottom: 40px;
+    /* bottom: 40px; */
     left: 50%;
     transform: translateX(-50%);
 }

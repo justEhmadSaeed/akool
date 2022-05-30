@@ -15,7 +15,6 @@ const CommerceScreen = () =>
         <Helmet>
             <title>Akool</title>
         </Helmet>
-        <Navbar />
         <section id="banner">
             <div className="container">
                 <div className="row">
