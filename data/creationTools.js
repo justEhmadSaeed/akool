@@ -6,32 +6,40 @@ export const creationTools =
             logo: "/images/creation/3D Modelling/logo.png",
             rating: 5,
             link: "https://console.akool.com/3d",
-            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+            about: `Akool 3D modeling is an e-commerce sharing service brand of professional 3D materials and design resources under akool. The founder is Mr. lvjiajun. The main services include 3D models, Su models and other material resources, design cases, quick cloud rendering, rendering orders, VR panoramic synthesis, etc. App digital resources are widely used in film and television animation, game production, e-commerce and other application scenarios.
+            3D models available for download from car to humans 3D assets. Available in number of file formats including MAX, OBJ, FBX, 3DS, STL, C4D, BLEND, MA, MB. Find professional 3D models for any 3D design projects like virtual reality (VR), augmented reality (AR), games, 3D architecture visualization or animation.
+            `,
             aboutImage: "/images/app_intro_about.png",
             goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             goalImage: "/images/about_section_two.png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-                    rating: 4,
+                    name: "favio-sierra",
+                    description: "Excelento modelo, me encanto! ahora mismo estoy imprimiendo sin nigun problema ",
+                    rating: 5,
                 },
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "kudretknew",
+                    description: "A fantastic model, very well designed and with small modifications works well with a cheap battery powered wireless led light. Really enjoyed printing this put using my Mars 2 pro and Ender 3 pro (for the base and light tunnel. Looking forward to seeing the next model.",
+                    rating: 5,
+                },
+                {
+                    image: "/images/app_intro_content.png",
+                    name: "grantgirle",
+                    description: "Very Nice Model. Recommended!",
                     rating: 4,
                 }
             ],
             faq: [
                 {
-                    question: "What is this app?",
-                    answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "Does the platform have a free model?",
+                    answer: "Yes, We provide free 3D models for users, Available in number of file formats including MAX, OBJ, FBX, 3DS, STL, C4D, BLEND, MA, MB. Find professional 3D models for any 3D design projects like virtual reality (VR), augmented reality (AR), games, 3D architecture visualization or animation.",
                 },
                 {
-                    question: "What is this app?",
-                    answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "How to access this platform?",
+                    answer: `You can click this link https://apps.akool.com Or search "akool" in Google to enter the company's official website, and then enter the page of apps. Select the application named 3D modelling to access our 3D model platform. If you have any questions during use, you can contact us, and we will arrange technical consultants to help you solve the problem.`,
                 }
             ],
             features: [
@@ -111,25 +119,25 @@ export const creationTools =
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "gadgetmonkey2010",
+                    description: "Amazing",
                     rating: 4,
                 },
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "ruudmong",
+                    description: "Great!! Thanks designers!!",
                     rating: 4,
                 }
             ],
             faq: [
                 {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "Can video be converted?",
+                    answer: "Yes, we provide two faceswap services: images and videos. In order to achieve the best results, please upload the content that meets the requirements according to the website prompts.",
                 },
                 {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "How to access this platform?",
+                    answer: " You can visit this link https://faceswap.akool.com/ to visit our website ",
                 }
             ],
             features: [
@@ -152,32 +160,32 @@ export const creationTools =
             description: "Coming soon! Low code SaaS application building tool.",
             logo: "/images/creation/SaaS App Creation Tools/logo.png",
             rating: 5,
-            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+            about: "By integrating the OpenAPI of akool cloud database products and tools, industry software providers can create database instances with one click, create tenant dB, tenant DB migration, tenant data subscription, tenant DB backup I recovery, real­ time report analysis, multi environment structure synchronization and other functions",
             aboutImage: "/images/app_intro_about.png",
             goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             goalImage: "/images/about_section_two.png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "PT Bma Sarana Sukses (BSS)",
+                    description: "BSS adopted a cloud-first strategy for new systems such as ERP on SAP S/4 HANA. Certified Elastic Compute Service (ECS) R5 instances is applied to running high-performance databases and in-memory workloads. Overall, migration to the cloud has helped BSS to jump start digital transformation while also achieving a lower TCO.",
                     rating: 4,
                 },
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "Indofun",
+                    description: "In particular, through akool Cloud's core computing and storage products like Elastic Compute Service (ECS), Server Load Balancer (SLB), as well as Block Storage and Object Storage Service (OSS), Indofun has the necessary computing power to meet and even beat customer expectations, providing an easily scalable, cost-effective, and highly reliable solution.",
                     rating: 4,
                 }
             ],
             faq: [
                 {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "How does the company cooperate?",
+                    answer: " You can leave your contact information, we will have a specialist to contact you, or you can send an email to Robin@akool.com, our colleagues will develop detailed solutions for you.",
                 },
                 {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "How to access this platform?",
+                    answer: `You can click this link https://apps.akool.com Or search "akool" in Google to enter the company's official website, and then enter the page of apps. Select the application named SaaS App Creation Tools to access our SaaS App Creation Tools platform. If you have any questions during use, you can contact us, and we will arrange technical consultants to help you solve the problem.`,
                 }
             ],
             features: [
@@ -200,32 +208,38 @@ export const creationTools =
             description: "Coming soon! Convert any text into art photos with deep learning. Generating arts is so easy.",
             logo: "/images/creation/Text to Photo/logo.png",
             rating: 5,
-            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+            about: "Through akool's text to photo platform, you can quickly convert text to pictures. Through Al algorithm, the content of text description is presented in the form of pictures.",
             aboutImage: "/images/app_intro_about.png",
             goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             goalImage: "/images/about_section_two.png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "Oksy27",
+                    description: "Very nice!",
                     rating: 4,
                 },
                 {
                     image: "/images/app_intro_content.png",
-                    name: "Sterling Lambert",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+                    name: "maticeee",
+                    description: "looks amazing!",
+                    rating: 4,
+                },
+                {
+                    image: "/images/app_intro_content.png",
+                    name: "baguln73",
+                    description: "Wow!!!",
                     rating: 4,
                 }
             ],
             faq: [
                 {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "How to use text to convert pictures?",
+                    answer: "Express the scene you want to convert as carefully as possible, and then click 'g' to generate it.",
                 },
                 {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+                    question: "How to access this platform?",
+                    answer: `You can click this link https://apps.akool.com Or search "akool" in Google to enter the company's official website, and then enter the page of apps. Select the application named Text to photo to access our Text to photo platform. If you have any questions during use, you can contact us, and we will arrange technical consultants to help you solve the problem.`,
                 }
             ],
             features: [
