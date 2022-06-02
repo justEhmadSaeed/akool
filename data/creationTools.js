@@ -25,6 +25,7 @@ export const creationTools =
                     description: "A fantastic model, very well designed and with small modifications works well with a cheap battery powered wireless led light. Really enjoyed printing this put using my Mars 2 pro and Ender 3 pro (for the base and light tunnel. Looking forward to seeing the next model.",
                     rating: 5,
                 },
+
                 {
                     image: "/images/app_intro_content.png",
                     name: "grantgirle",
@@ -262,7 +263,8 @@ export const creationTools =
             description: "Coming soon! Create your avatar with one photo and simple selections. Animate and use it anywhere.",
             logo: "/images/creation/Virtual Human/logo.png",
             rating: 5,
-            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+            about: `When avatars are no longer just pixels, they rise up to be virtual humans. We believe virtual humans have a higher calling. Our applications enable virtual humans to fulfill their ambitions of helping people. We also conduct and collaborate avatar
+            based research that helps us better understand people and virtual humans.`,
             aboutImage: "/images/app_intro_about.png",
             goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             goalImage: "/images/about_section_two.png",
