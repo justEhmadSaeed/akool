@@ -6,9 +6,9 @@ export const recognitionTools = [
         rating: 5,
         link: "",
         about: "Machine Learning Platform for Al provides end-to-end machine learning services, including data processing, feature engineering, model training, model prediction, and model evaluation. Machine Learning Platform for Al combines all of these services to make Al more accessible than ever.",
-        aboutImage: "/images/app_intro_about.png",
+        aboutImage: "/images/Product Images/Data Synthesize with Realistic Editing 1.png",
         goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-        goalImage: "/images/about_section_two.png",
+        goalImage: "/images/Product Images/Data Synthesize with Realistic Editing 2.png",
         testimonials: [
             {
                 image: "/images/app_intro_content.png",
@@ -54,9 +54,9 @@ export const recognitionTools = [
         rating: 5,
         link: "",
         about: "It contains such capabilities as face detection, attribute analysis, face comparison, and liveness detection. It is flexibly used for financial. PAN security, and retail industry scenarios. It meets business requirements, such as identity verification, human face attendance, and gate access.",
-        aboutImage: "/images/app_intro_about.png",
+        aboutImage: "/images/Product Images/Face Recognition 1.png",
         goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-        goalImage: "/images/about_section_two.png",
+        goalImage: "/images/Product Images/Face Recognition 2.png",
         testimonials: [
             {
                 image: "/images/app_intro_content.png",
@@ -102,9 +102,9 @@ export const recognitionTools = [
         rating: 5,
         link: "",
         about: "Image Search allows your users to search by image based on image similarities. Image Search uses deep learning and machine vision to capture characteristics of images and then search for images based on the captured information",
-        aboutImage: "/images/app_intro_about.png",
+        aboutImage: "/images/Product Images/Image Search 1.png",
         goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-        goalImage: "/images/about_section_two.png",
+        goalImage: "/images/Product Images/Image Search 2.png",
         testimonials: [
             {
                 image: "/images/app_intro_content.png",
@@ -150,9 +150,9 @@ export const recognitionTools = [
         rating: 5,
         link: "",
         about: "It can recognize over 100 thousand kinds of objects and scenarios precisely, including more than ten high-precision image recognition abilities. Also, it can offer related API services and fully meet developers and enterprise users' application requirements.",
-        aboutImage: "/images/app_intro_about.png",
+        aboutImage: "/images/Product Images/Product Recognition 1.png",
         goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-        goalImage: "/images/about_section_two.png",
+        goalImage: "/images/Product Images/Product Recognition 2.png",
         testimonials: [
             {
                 image: "/images/app_intro_content.png",
@@ -198,9 +198,9 @@ export const recognitionTools = [
         rating: 5,
         link: "",
         about: "CloudMonitor collects monitor metrics of AKOOL Cloud resources and custom metrics. The service can be used to detect the availability of your service and allows you to set alarms on specific metrics. CloudMonitor enables you to view and fully understand the usage of the cloud resources, and the status and health of your business, so that you can act promptly to ensure the availability of your application when an alarm is triggered.",
-        aboutImage: "/images/app_intro_about.png",
+        aboutImage: "/images/Product Images/Security Monitor 1.png",
         goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-        goalImage: "/images/about_section_two.png",
+        goalImage: "/images/Product Images/Security Monitor 2.png",
         testimonials: [
             {
                 image: "/images/app_intro_content.png",

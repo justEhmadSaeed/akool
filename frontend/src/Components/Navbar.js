@@ -210,7 +210,7 @@ const Navbar = ({ hideNavItems }) => {
                                     </li>
                                 </ul>
                             </div> */}
-                            <div className="copyright_text">
+                            <div className="copyright_text w-100 text-end">
                                 <p>© 2022 by Akool Inc.</p>
                             </div>
                         </div>

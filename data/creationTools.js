@@ -65,9 +65,9 @@ export const creationTools =
             rating: 5,
             link: "https://console.akool.com/video",
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            aboutImage: "/images/app_intro_about.png",
+            aboutImage: '/images/Product Images/3d Movie 1.png',
             goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            goalImage: "/images/about_section_two.png",
+            goalImage: "/images/Product Images/3d Movie 2.png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
@@ -265,9 +265,9 @@ export const creationTools =
             rating: 5,
             about: `When avatars are no longer just pixels, they rise up to be virtual humans. We believe virtual humans have a higher calling. Our applications enable virtual humans to fulfill their ambitions of helping people. We also conduct and collaborate avatar
             based research that helps us better understand people and virtual humans.`,
-            aboutImage: "/images/app_intro_about.png",
+            aboutImage: "/images/Product Images/Virtual Human 1.png",
             goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            goalImage: "/images/about_section_two.png",
+            goalImage: "/images/Product Images/Virtual Human 2.png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
