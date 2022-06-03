@@ -43,20 +43,6 @@ export const creationTools =
                     answer: `You can click this link https://apps.akool.com Or search "akool" in Google to enter the company's official website, and then enter the page of apps. Select the application named 3D modelling to access our 3D model platform. If you have any questions during use, you can contact us, and we will arrange technical consultants to help you solve the problem.`,
                 }
             ],
-            features: [
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                }
-            ],
         },
         {
             title: "3D Movie",
@@ -80,30 +66,6 @@ export const creationTools =
                     name: "Sterling Lambert",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
                     rating: 4,
-                }
-            ],
-            faq: [
-                {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-                },
-                {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-                }
-            ],
-            features: [
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
                 }
             ],
         },
@@ -141,20 +103,6 @@ export const creationTools =
                     answer: " You can visit this link https://faceswap.akool.com/ to visit our website ",
                 }
             ],
-            features: [
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                }
-            ],
         },
         {
             title: "SaaS App Creation Tools (Coming)",
@@ -187,20 +135,6 @@ export const creationTools =
                 {
                     question: "How to access this platform?",
                     answer: `You can click this link https://apps.akool.com Or search "akool" in Google to enter the company's official website, and then enter the page of apps. Select the application named SaaS App Creation Tools to access our SaaS App Creation Tools platform. If you have any questions during use, you can contact us, and we will arrange technical consultants to help you solve the problem.`,
-                }
-            ],
-            features: [
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
                 }
             ],
         },
@@ -243,20 +177,6 @@ export const creationTools =
                     answer: `You can click this link https://apps.akool.com Or search "akool" in Google to enter the company's official website, and then enter the page of apps. Select the application named Text to photo to access our Text to photo platform. If you have any questions during use, you can contact us, and we will arrange technical consultants to help you solve the problem.`,
                 }
             ],
-            features: [
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                }
-            ],
         },
         {
             title: "Virtual Human (Coming)",
@@ -280,30 +200,6 @@ export const creationTools =
                     name: "Sterling Lambert",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
                     rating: 4,
-                }
-            ],
-            faq: [
-                {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-                },
-                {
-                    question: "What is this app?",
-                    answer: " It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-                }
-            ],
-            features: [
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-                },
-                {
-                    title: "Feature",
-                    description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
                 }
             ],
         },

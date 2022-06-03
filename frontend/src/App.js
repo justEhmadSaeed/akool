@@ -34,7 +34,7 @@ const App = () => {
             <Route index element={<CreationTools />} />
             <Route path='recognition' element={<RecognitionTools />} />
           </Route> :
-          <Route path='/' element={<Navbar hideNavItems />}>
+          <Route path='/' element={<Navbar />}>
             <Route index element={<AppsScreen />} />
           </Route>
         }

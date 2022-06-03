@@ -74,32 +74,24 @@ const LoginScreen = () => {
                     <div className="login-wrap">
                         <div className="login-title">
                             <h3>Get Started</h3>
-                            <p>10G free storage, 20 free processing api call, 1k free visits</p>
+                            <p>10G free storage, 20 free processing api call</p>
                         </div>
                         <div className="login-single-box">
-                            <h6>Build content solution on Akool</h6>
+                            <h6>Adopt Akool creation and recognition solutions</h6>
                             <div className="login-icon">
-                                <a href="true" data-aos="zoom-in" data-aos-delay={50} data-aos-duration={1100}><img src="/images/login/l1.png" alt="" /> Video</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={150} data-aos-duration={1300}><img src="/images/login/l3.png" alt="" /> 3D</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={200} data-aos-duration={1400}><img src="/images/login/l4.png" alt="" /> Rendering</a>
-                            </div>
-                        </div>
-                        <div className="login-single-box">
-                            <h6>Deploy easily with</h6>
-                            <div className="login-icon">
-                                <a href="true" data-aos="zoom-in" data-aos-delay={250} data-aos-duration={1500}><img src="/images/login/l5.png" alt="" /> Android</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={300} data-aos-duration={1600}><img src="/images/login/l6.png" alt="" /> iOS</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={350} data-aos-duration={1700}><img src="/images/login/l7.png" alt="" /> Web</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={400} data-aos-duration={1800}><img src="/images/login/l8.png" alt="" /> Unity</a>
+                                <a href="#true" data-aos="zoom-in" data-aos-delay={50} data-aos-duration={1100}><img src="/images/login/l1.png" alt="" /> Video</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={150} data-aos-duration={1300}><img src="/images/login/l3.png" alt="" /> 3D</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={200} data-aos-duration={1400}><img src="/images/login/l4.png" alt="" /> Recognition</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={200} data-aos-duration={1400}><img src="/images/login/market.png" alt="" /> Recognition</a>
                             </div>
                         </div>
                         <div className="login-single-box log-las">
                             <h6>Trusted by thousands of customers globally</h6>
                             <div className="login-icon">
-                                <a href="true" data-aos="zoom-in" data-aos-delay={450} data-aos-duration={1900}><img src="/images/login/l9.png" alt="" /> Nreal</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={500} data-aos-duration={2000}><img src="/images/login/l10.png" alt="" /> DreamGlass</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={550} data-aos-duration={2100}><img src="/images/login/l11.png" alt="" /> Shopify</a>
-                                <a href="true" data-aos="zoom-in" data-aos-delay={600} data-aos-duration={2200}><img src="/images/login/l12.png" alt="" /> Tencent</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={450} data-aos-duration={1900}><img src="/images/login/l9.png" alt="" /> Nreal</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={500} data-aos-duration={2000}><img src="/images/login/l10.png" alt="" /> DreamGlass</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={550} data-aos-duration={2100}><img src="/images/login/tcc.png" alt="" /> TCC</a>
+                                <a href="# " data-aos="zoom-in" data-aos-delay={600} data-aos-duration={2200}><img src="/images/login/l12.png" alt="" /> Tencent</a>
                             </div>
                         </div>
                     </div>

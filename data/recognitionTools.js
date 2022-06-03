@@ -23,16 +23,6 @@ export const recognitionTools = [
                 rating: 4,
             }
         ],
-        faq: [
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            },
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            }
-        ],
         features: [
             {
                 title: "Visualized Interface",
@@ -69,16 +59,6 @@ export const recognitionTools = [
                 name: "Sterling Lambert",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
                 rating: 4,
-            }
-        ],
-        faq: [
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            },
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
             }
         ],
         features: [
@@ -119,29 +99,11 @@ export const recognitionTools = [
                 rating: 4,
             }
         ],
-        faq: [
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            },
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            }
-        ],
         features: [
             {
                 title: "Search by Product Image",
                 description: "Allows your customers to use a product image to search for the same product or similar products in your self-managed image library Then, the system returns information about the product images.",
             },
-            {
-                title: "Feature",
-                description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-            },
-            {
-                title: "Feature",
-                description: "Utilize deep learning to fully automate content Mi quis hendrerit dolor magna.",
-            }
         ],
     }, {
         title: "Product Recognition",
@@ -165,16 +127,6 @@ export const recognitionTools = [
                 name: "Sterling Lambert",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
                 rating: 4,
-            }
-        ],
-        faq: [
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            },
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
             }
         ],
         features: [
@@ -213,16 +165,6 @@ export const recognitionTools = [
                 name: "Sterling Lambert",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
                 rating: 4,
-            }
-        ],
-        faq: [
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-            },
-            {
-                question: "What is this app?",
-                answer: "It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
             }
         ],
         features: [

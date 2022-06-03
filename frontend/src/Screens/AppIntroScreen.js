@@ -129,19 +129,15 @@ const AppIntroScreen = () => {
                         </div>
                     </section>
 
-                    <section id="faq_section">
-
+                    {product.faq.length > 0 && <section id="faq_section">
                         <div className="container">
-
                             <div className="row">
                                 <div className="col-lg-6 m-auto">
                                     <div className="heading_text text-center">
                                         <h3 className='app-intro-h3'>FAQs</h3>
                                     </div>
-
                                 </div>
                             </div>
-
                             <div className="row">
                                 <div className="col-lg-10 m-auto">
                                     {product.faq.map((faq, index) =>
@@ -150,11 +146,10 @@ const AppIntroScreen = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section>}
 
 
-                    {
-                        product.features &&
+                    {product.features.length > 0 &&
                         <section className="app_intro_feature">
                             <div className="container">
                                 <div className="row">
@@ -181,9 +176,7 @@ const AppIntroScreen = () => {
                                                     </div>
                                                 </div>)
                                         }
-
                                     </div>
-
                                 </div>
                             </div>
                         </section>}
