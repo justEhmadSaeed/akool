@@ -15,15 +15,11 @@ const Tool = ({ title, logo, description, rating, maintainHistory = true, launch
                 logo,
                 description,
                 rating,
+                link: launchLink,
             }
             if (localStorage.getItem('used')) {
                 let usedItems = JSON.parse(localStorage.getItem('used'))
-                const isFound = usedItems.some(item => {
-                    if (item.title === items.title) {
-                        return true;
-                    }
-                    return false;
-                });
+                const isFound = usedItems.some(item => item.title === items.title);
                 if (!isFound) {
                     if (usedItems.length > 2) {
                         usedItems.shift()
@@ -44,13 +40,10 @@ const Tool = ({ title, logo, description, rating, maintainHistory = true, launch
                     <div className="image_section">
                         <img src={logo} alt='logo' />
                     </div>
-                    {/* <div style={{ position: 'absolute', border: '1px solid #000C3E', top: '0', right: '1rem', borderRadius: '50%', width: '25px', height: '25px', justifyContent: 'center', display: 'flex', alignItems: 'center', color: 'black' }}>
-                        <i className="fa fa-heart"></i>
-                    </div> */}
                 </div>
                 <div className="bottom_section">
                     <h3 className='launch-h3'>{title}</h3>
-                    <p>{description}</p>
+                    <p>{description && description}</p>
                     <div className="rating_section d-flex align-items-baseline">
                         <h5 className="mb-0">5.0</h5>
                         <div className="star_section">

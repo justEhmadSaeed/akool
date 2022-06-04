@@ -49,25 +49,7 @@ const CreationTools = () => {
                 <div className="used-fl gap-3">
                     {
                         usedItems?.reverse().map(item =>
-                            <div className="slider_card">
-                                <div className="top_section">
-                                    <div className="image_section">
-                                        <img src={item.logo} alt="slider" />
-                                    </div>
-                                    <div className="heart_icon_section">
-                                        <i className="fa fa-heart" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div className="bottom_section">
-                                    <h3 className='launch-h3'>{item.title}</h3>
-                                    <div className="rating_section d-flex align-items-baseline">
-                                        <h5 className="mb-0">{item.rating}</h5>
-                                        <div className="star_section">
-                                            {Array(item.rating).fill(1).map(x => <span><i className="fa fa-star" aria-hidden="true"></i></span>)}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <Tool key={item._id} title={item.title} description={item.description} rating={item.rating} logo={item.logo} launchLink={item.link && `${item.link}?token=${token}`} />
                         )
                     }
                 </div>
