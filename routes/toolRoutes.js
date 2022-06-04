@@ -1,8 +1,8 @@
+import axios from 'axios'
 import express from 'express'
 import _3dApp from '../models/3dAppModel.js'
 import CreationTool from '../models/creationToolModel.js'
 import RecognitionTool from '../models/recognitionToolModel.js'
-// import ToolDetail from '../models/toolDetailModel.js'
 import TopApp from '../models/topAppModel.js'
 const router = express.Router()
 
@@ -49,6 +49,34 @@ router.post('/find/:title', async (req, res) => {
     } catch (error) {
         res.send(error)
     }
+})
+
+router.get('/smart-camera', async (req, res) => {
+    const apps = ['Face Recognition', 'Product Recognition', 'Security Monitor']
+    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const smartCameraApps = []
+    data.forEach(product => {
+        apps.forEach(app => {
+            if (product.title.includes(app)) {
+                smartCameraApps.push(product)
+            }
+        })
+    })
+    res.send(JSON.stringify(smartCameraApps))
+})
+
+router.get('/metaverse', async (req, res) => {
+    const apps = ['3D Modelling', '3D Movie', 'Virtual Human']
+    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const metaverseApps = []
+    data.forEach(product => {
+        apps.forEach(app => {
+            if (product.title.includes(app)) {
+                metaverseApps.push(product)
+            }
+        })
+    })
+    res.send(JSON.stringify(metaverseApps))
 })
 
 router.get('/all', async (req, res) => {
