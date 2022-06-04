@@ -79,6 +79,48 @@ router.get('/metaverse', async (req, res) => {
     res.send(JSON.stringify(metaverseApps))
 })
 
+router.get('/metaverse', async (req, res) => {
+    const apps = ['3D Modelling', '3D Movie', 'Virtual Human']
+    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const metaverseApps = []
+    data.forEach(product => {
+        apps.forEach(app => {
+            if (product.title.includes(app)) {
+                metaverseApps.push(product)
+            }
+        })
+    })
+    res.send(JSON.stringify(metaverseApps))
+})
+
+router.get('/commerce', async (req, res) => {
+    const apps = ['Face Swap', '3D Modelling', 'Image Search']
+    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const commerceApps = []
+    data.forEach(product => {
+        apps.forEach(app => {
+            if (product.title.includes(app)) {
+                commerceApps.push(product)
+            }
+        })
+    })
+    res.send(JSON.stringify(commerceApps))
+})
+
+router.get('/entertainment', async (req, res) => {
+    const apps = ['Face Swap', '3D Modelling', 'Text to Photo']
+    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const commerceApps = []
+    data.forEach(product => {
+        apps.forEach(app => {
+            if (product.title.includes(app)) {
+                commerceApps.push(product)
+            }
+        })
+    })
+    res.send(JSON.stringify(commerceApps))
+})
+
 router.get('/all', async (req, res) => {
     let allProducts = []
     const creationTools = await getCreationTools()
