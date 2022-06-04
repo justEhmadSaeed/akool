@@ -13,14 +13,14 @@ const SmartCameraScreen = () => {
     const [apps, setApps] = useState([])
     const [loading, setLoading] = useState(true)
 
-    const getTopTools = async () => {
+    const getApps = async () => {
         const { data } = await axios.get('/api/tools/smart-camera')
         setApps(data)
         setLoading(false)
     }
 
     useEffect(() => {
-        getTopTools()
+        getApps()
     }, [])
 
     return (
