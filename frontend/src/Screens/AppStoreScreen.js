@@ -78,7 +78,7 @@ const AppStoreScreen = () => {
                             </div>
                             <h3 className='launch-h3 w-100'>App Store</h3>
                             <div className='d-flex align-items-center justify-content-end gap-2 position-relative'>
-                                <img className='w-75 w-sm-100' src="/images/man.png" alt="" />
+                                <img className='w-100 rounded-circle' height={50} src="/images/man.png" alt="" />
                                 <div className='text-white d-none  fw-bold fs-6'>
                                     <p className='text-white mb-2'>{user.firstName + ' ' + user.lastName}</p>
                                     <p className='text-white mb-2'>{user.email}</p>
