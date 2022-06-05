@@ -106,6 +106,10 @@ const Navbar = ({ hideNavItems }) => {
                                             <img src="/images/commerce.png" width={40} alt="smart camera" />
                                             <p className='text-light m-0'>Commerce</p>
                                         </Link>
+                                        <Link to='/solutions/entertainment' className='text-light w-100 d-flex gap-2 align-items-center'>
+                                            <img src="/images/entertainment.png" width={40} alt="smart camera" />
+                                            <p className='text-light m-0'>Entertainment &amp; Art</p>
+                                        </Link>
                                     </div>
                                 </div>
                                 <li className="nav-item">

@@ -21,7 +21,6 @@ import SmartCameraScreen from './Screens/SmartCameraScreen'
 import MetaverseScreen from './Screens/MetaverseScreen'
 import { OtpVerification } from './Screens/OtpVerification'
 import Error from './Components/Error'
-import { Profile } from './Components/Profile'
 import EntertainmentScreen from './Screens/EntertainmentScreen'
 
 const App = () => {

@@ -103,43 +103,39 @@ const CommerceScreen = () => {
                                     `<div><img src="/images/slider_next_white.png" alt="next"/></div>`]}>
 
                                 <div className="customer_stories_slider_card d-flex">
-                                    <div className="image_section w-100">
-                                        <img src="/images/young-beautiful-woman-casual-outfit-isolated-studio.png"
+                                    <div className="image_section w-100 m-auto" style={{ maxWidth: '28rem' }}>
+                                        <img src="/images/s3.jpeg"
                                             alt="lady pic" />
                                     </div>
                                     <div className="text_section">
-                                        <h3 className="mb-0">Jane Johnson</h3>
-                                        <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua.
-                                            <span className="d-block">
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                                                id est laborum.
-                                            </span>
-                                        </p>
-                                        <h5 className="mb-0">August 5th, 2021</h5>
+                                        <h3 className="mb-0">Chi Xu</h3>
+                                        <p className='p-0 text-secondary'>CEO, Founder of NReal</p>
+                                        <p className="mb-0">"Akool's 3D content creation technology helps us greatly increase MR content quantity and quality."</p>
+                                        <h5 className="mb-0">Oct 5th, 2021</h5>
                                     </div>
                                 </div>
                                 <div className="customer_stories_slider_card d-flex">
-                                    <div className="image_section w-100">
-                                        <img src="/images/young-beautiful-woman-casual-outfit-isolated-studio.png"
+                                    <div className="image_section w-100 m-auto" style={{ maxWidth: '28rem' }}>
+                                        <img src="/images/s4.png"
                                             alt="lady pic" />
                                     </div>
                                     <div className="text_section">
-                                        <h3 className="mb-0">Jane Johnson</h3>
-                                        <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua.
-                                            <span className="d-block">
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                                                id est laborum.
-                                            </span>
-                                        </p>
-                                        <h5 className="mb-0">August 5th, 2021</h5>
+                                        <h3 className="mb-0">Kevin Zhong</h3>
+                                        <p className='p-0 text-secondary'>CEO, Founder of DreamGlass</p>
+                                        <p className="mb-0">"Our partnership with Akool on 3D Multimedia center is a great success."</p>
+                                        <h5 className="mb-0">June 19th, 2021</h5>
+                                    </div>
+                                </div>
+                                <div className="customer_stories_slider_card d-flex">
+                                    <div className="image_section w-100 m-auto" style={{ maxWidth: '28rem' }}>
+                                        <img src="/images/s2.png"
+                                            alt="lady pic" />
+                                    </div>
+                                    <div className="text_section">
+                                        <h3 className="mb-0">Peng Dou</h3>
+                                        <p className='p-0 text-secondary'>Business Development Director of Tencent</p>
+                                        <p className="mb-0">"User interactions and sales are tripled after adopting 3D visualizations."</p>
+                                        <h5 className="mb-0">February 23rd, 2021</h5>
                                     </div>
                                 </div>
                             </OwlCarousel>
