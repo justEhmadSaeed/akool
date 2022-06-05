@@ -63,8 +63,6 @@ const AppStoreScreen = () => {
                                         aria-label="Close"></button>
                                 </div>
                                 <div className="offcanvas-body">
-
-
                                     <div className="dash-menu">
                                         <ul onClick={() => { setShowNav(false) }}>
                                             <li ><NavLink exact activeClassName='active ' to="/"><img src="/images/application.png" alt="" />
@@ -93,19 +91,14 @@ const AppStoreScreen = () => {
                                     <p className=' text-white mb-2'>{user.firstName + ' ' + user.lastName}</p>
                                     <p className='mb-2 text-white'>{user.email}</p>
                                 </div>
-                                <span onClick={() => { showNavDropdown ? setShowNavDropdown(false) : setShowNavDropdown(true) }}><i className="fa fa-chevron-down " style={{ color: "#fff" }}></i></span>
-                                <div className={showNavDropdown ? 'position-absolute end-0 bg-light p-2 rounded shadow ' : 'position-absolute end-0 bg-light p-2 rounded d-none'} style={{ top: "4rem" }}>
+                                <span onMouseEnter={() => { showNavDropdown ? setShowNavDropdown(false) : setShowNavDropdown(true) }}><i className="fa fa-chevron-down " style={{ color: "#fff" }}></i></span>
+                                <div onMouseLeave={() => { setShowNavDropdown(false) }} className={showNavDropdown ? 'position-absolute end-0 bg-light p-2 rounded shadow ' : 'position-absolute end-0 bg-light p-2 rounded d-none'} style={{ top: "4rem" }}>
                                     <p className='mb-2 block d-sm-none'>{user.firstName + ' ' + user.lastName}</p>
                                     <p className='mb-2 block d-sm-none'>{user.email}</p>
                                     <div style={{ width: '15rem' }} className='p-1'>
                                         <div onClick={handleShow} className='mb-2 py-3 border-bottom' style={{ cursor: 'pointer' }}>Profile</div>
                                         <div onClick={handleLogout} style={{ cursor: 'pointer' }} className='p-1'>Logout</div>
                                     </div>
-                                    {/* <Button variant="primary" className='w-100 mb-1' onClick={handleShow}>
-                                        Profile
-                                    </Button>
-                                    <button onClick={handleLogout} type="button" className="btn btn-primary w-100">Logout</button> */}
-
                                 </div>
                             </div>
                             <div onClick={() => { showNav ? setShowNav(false) : setShowNav(true) }} className={showNav ? 'modal-backdrop fade show' : 'd-none'}></div>
