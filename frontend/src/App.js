@@ -52,10 +52,7 @@ const App = () => {
           <Route path='login' element={<LoginScreen />} />
           <Route path='register' element={<RegisterScreen />} />
         </Route>
-        <Route path="/404" element={<Error />} />
         <Route path="*" element={<Error />} />
-        <Route path="profile" element={<Profile />} />
-
       </Routes>
     </BrowserRouter>
   );

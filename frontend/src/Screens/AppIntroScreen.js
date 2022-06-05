@@ -5,16 +5,18 @@ import Faq from '../Components/Faq'
 import TestimonialCarousel from '../Components/TestimonialCarousel'
 import { Spinner } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
+import Error from '../Components/Error'
 
 const AppIntroScreen = () => {
     const { title } = useParams()
     const [product, setProduct] = useState({})
     const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(false)
     const navigate = useNavigate();
 
     const getProducts = async () => {
         const { data } = await axios.post(`/api/tools/find/${title}`)
-        data ? setProduct(data) : navigate('/404')
+        data ? setProduct(data) : setError(true)
         setLoading(false)
     }
     useEffect(() => {
@@ -22,14 +24,14 @@ const AppIntroScreen = () => {
         getProducts()
     }, [])
 
-    console.log(product);
-
+    if (error)
+        return <Error />
     return (
-
         <div>
             <Helmet>
                 <title>{title}</title>
             </Helmet>
+
             {loading ?
                 <div style={{ height: '100vh' }} className='d-flex justify-content-center align-items-center'>
                     <Spinner animation="border" role="status">

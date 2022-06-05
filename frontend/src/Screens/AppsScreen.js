@@ -25,7 +25,6 @@ const AppsScreen = () => {
 
     const getProducts = async () => {
         const { data } = await axios.get('/api/tools/all')
-        console.log(data);
         setLoading(false)
         setProducts(data)
         setResult(data)
