@@ -46,16 +46,16 @@ const CreationTools = () => {
                 <div className="section-title">
                     <h3 className='launch-h3'>Recently Used</h3>
                 </div>
-                <div className="used-fl gap-3">
+                <div className="row">
                     {
                         usedItems?.reverse().map(item =>
-                            <Tool key={item._id} title={item.title} description={item.description} rating={item.rating} logo={item.logo} launchLink={item.link && `${item.link}?token=${token}`} />
+                            <div className="col-lg-4 col-md-6">
+                                <Tool key={item._id} title={item.title} description={item.description} rating={item.rating} logo={item.logo} launchLink={item.link && `${item.link}?token=${token}`} />
+                            </div>
                         )
                     }
                 </div>
             </div>
-
-
 
             <div className="all_apps_part mt-5">
                 <div className="container">
