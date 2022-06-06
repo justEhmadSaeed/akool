@@ -17,6 +17,7 @@ const LoginScreen = () => {
     const [password, setPassword] = useState('')
     const [loading, setLoading] = useState(false)
     const [error, showError] = useState(false)
+    const [showPassword, setShowPassword] = useState(false)
 
     const userLoggedIn = useSelector(state => state.userInfo)
 
@@ -105,11 +106,9 @@ const LoginScreen = () => {
             <form onSubmit={(e) => { handleLogin(e) }}>
                 <div className="login-inp">
                     <input value={email} onChange={(e) => { setEmail(e.target.value) }} name="email" type="Email" placeholder="Your Email" />
-                    <div className="input-group mb-3">
-                        <input value={password} onChange={(e) => { setPassword(e.target.value) }} className="form-control" type="password" placeholder="Password" />
-                        <div className="input-group-append">
-                            {/* <span className="input-group-text" id="basic-addon2"><i class="fa-solid fa-eye"></i></span> */}
-                        </div>
+                    <div className="input-group position-relative">
+                        <input value={password} onChange={(e) => { setPassword(e.target.value) }} className="form-control" type={showPassword ? 'text' : 'password'} placeholder="Password" />
+                        <i onClick={() => showPassword ? setShowPassword(false) : setShowPassword(true)} className="fa fa-eye-slash position-absolute fs-5" style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
                     </div>
                 </div>
                 <div className="form-group my-2">
