@@ -5,9 +5,9 @@ export const recognitionTools = [
         logo: "/images/recognition/Data Synthesize Tools/logo.png",
         rating: 5,
         link: "",
-        about: "Machine Learning Platform for Al provides end-to-end machine learning services, including data processing, feature engineering, model training, model prediction, and model evaluation. Machine Learning Platform for Al combines all of these services to make Al more accessible than ever.",
+        about: "An end-to-end  platform  that  provides  various  machine  learning  algorithms  to  meet  your  data  mining  and  analysis requirements.",
         aboutImage: "/images/Product Images/Data Synthesize with Realistic Editing 1.png",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+        goal: "Machine Learning Platform for Al provides end-to-end machine learning services, including data processing, feature engineering, model training, model prediction, and model evaluation. Machine Learning Platform for Al combines all of these services to make Al more accessible than ever.",
         goalImage: "/images/Product Images/Data Synthesize with Realistic Editing 2.png",
         testimonials: [
             {
@@ -45,7 +45,7 @@ export const recognitionTools = [
         link: "",
         about: "It contains such capabilities as face detection, attribute analysis, face comparison, and liveness detection. It is flexibly used for financial. PAN security, and retail industry scenarios. It meets business requirements, such as identity verification, human face attendance, and gate access.",
         aboutImage: "/images/Product Images/Face Recognition 1.png",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+        goal: `By combining several combination capabilities including identity card recognition, face comparison, and liveness detection and connecting to the authoritative data source, it can ensure that the user be "Real" and ’Himself/Herself;. It allows the user to complete the user identity verification. It can be applied for financial services and logistics, and goods transportation industries, it can also control business risks effectively and prevent cheating behaviours.`,
         goalImage: "/images/Product Images/Face Recognition 2.png",
         testimonials: [
             {
@@ -77,7 +77,7 @@ export const recognitionTools = [
         ],
     }, {
         title: "Image Search",
-        description: "Coming soon! Large scale similar image search system. Used for image search, recommendation, et al. On-premise deployment available.",
+        description: "Image  Search  allows  your  users  to  search  by  image  based  on  image  similarities.  Image  Search  uses  deep  learning  and machine vision to capture characteristics of images and then search for images based on the captured information",
         logo: "/images/recognition/Image Search/logo.png",
         rating: 5,
         link: "",
@@ -104,6 +104,22 @@ export const recognitionTools = [
                 title: "Search by Product Image",
                 description: "Allows your customers to use a product image to search for the same product or similar products in your self-managed image library Then, the system returns information about the product images.",
             },
+            {
+                title: "High Precision",
+                description: "Adopts advanced deep learning algorithms and image recognition technologies for high precision in search jobs.",
+            },
+            {
+                title: "Customizable Search",
+                description: "Supports customizable image search for more accurate results.",
+            },
+            {
+                title: "Rapid Response",
+                description: "Provides a large-scale search engine that supports image search from hundreds of millions of images in seconds.",
+            },
+            {
+                title: "High Efficiency",
+                description: "Adopts standard APIs and provides in-screen helps and access to documents to simplify use.",
+            },
         ],
     }, {
         title: "Product Recognition",
@@ -113,7 +129,7 @@ export const recognitionTools = [
         link: "",
         about: "It can recognize over 100 thousand kinds of objects and scenarios precisely, including more than ten high-precision image recognition abilities. Also, it can offer related API services and fully meet developers and enterprise users' application requirements.",
         aboutImage: "/images/Product Images/Product Recognition 1.png",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
+        goal: "It can analyze the images of the web pages when users are browsing, Through recognizing the information of images, it can recommend relevant contents to the users, or show relevant advertisements on the web page to improve the advertisement click rate. It can be applied for such business scenarios as news information service, information search service, video Apps. and personalized recommendations.",
         goalImage: "/images/Product Images/Product Recognition 2.png",
         testimonials: [
             {
@@ -145,7 +161,7 @@ export const recognitionTools = [
         ],
     }, {
         title: "Security Monitor",
-        description: "Coming soon! Cloud based security monitor application that supports corporates. On-premise deployment available.",
+        description: "Automate performance monitoring of all your web resources and applications in real time.",
         logo: "/images/recognition/Security Monitor/logo.png",
         rating: 5,
         link: "",
@@ -179,7 +195,19 @@ export const recognitionTools = [
             {
                 title: "Flexible Alarms",
                 description: "You can set alarms based on different scenarios, and send alarms using multiple methods.",
-            }
+            },
+            {
+                title: "Improves Maintenance Efficiency",
+                description: "Allows you to manage cloud resources that are used in different applications by group.",
+            },
+            {
+                title: "Process monitoring",
+                description: "Collects CPU and memory consumption of most active processes.",
+            },
+            {
+                title: "Metrics collected in seconds",
+                description: "Provides more than 30 monitor metrics that are updated every second to let you view the smallest changes.",
+            },
         ],
     }
 ]

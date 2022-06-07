@@ -165,7 +165,7 @@ const AppIntroScreen = () => {
                             </div>
                             <div className="container-fluid">
                                 <div className="row">
-                                    <div className="feature_cards">
+                                    <div className="feature_cards" style={{ flexWrap: 'wrap' }}>
                                         {
                                             product.features.map((feature, index) =>
                                                 <div className={"feature_card d-flex align-items-start m-2"}>
