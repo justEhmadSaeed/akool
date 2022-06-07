@@ -20,6 +20,8 @@ const RegisterScreen = () => {
     const [confirmRegistration, setConfirmRegistration] = useState(false)
     const [toastMessage, setToastMessage] = useState('')
     const userLoggedIn = useSelector(state => state.userInfo)
+    let passwordShowIcon = showPassword ? 'fa fa-eye' : 'fa fa-eye-slash'
+    let confirmPasswordShowIcon = showConfirmPassword ? 'fa fa-eye' : 'fa fa-eye-slash'
 
     const timeoutToastMessage = (message, time = 3000) => {
         setTimeout(() => {
@@ -144,11 +146,11 @@ const RegisterScreen = () => {
                     <input value={email} onChange={(e) => { setEmail(e.target.value) }} name="email" type="Email" placeholder="Your Email" />
                     <div className="input-group position-relative">
                         <input value={password} onChange={(e) => { setPassword(e.target.value) }} className="form-control" type={showPassword ? 'text' : 'password'} placeholder="Password" />
-                        <i onClick={() => showPassword ? setShowPassword(false) : setShowPassword(true)} className="fa fa-eye-slash position-absolute fs-5" style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
+                        <i onClick={() => showPassword ? setShowPassword(false) : setShowPassword(true)} className={`${passwordShowIcon} position-absolute fs-5`} style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
                     </div>
                     <div className="input-group mb-3 position-relative">
                         <input value={confirmPassword} onChange={(e) => { setConfirmPassword(e.target.value) }} className="form-control" type={showConfirmPassword ? 'text' : 'password'} placeholder="Confirm Password" />
-                        <i onClick={() => showConfirmPassword ? setShowConfirmPassword(false) : setShowConfirmPassword(true)} className="fa fa-eye-slash position-absolute fs-5" style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
+                        <i onClick={() => showConfirmPassword ? setShowConfirmPassword(false) : setShowConfirmPassword(true)} className={`${confirmPasswordShowIcon} position-absolute fs-5`} style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
                     </div>
                     {confirmRegistration &&
                         <div className="alert alert-success " role="alert">
