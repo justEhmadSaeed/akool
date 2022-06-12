@@ -53,7 +53,7 @@ router.post('/find/:title', async (req, res) => {
 
 router.get('/smart-camera', async (req, res) => {
     const apps = ['Face Recognition', 'Product Recognition', 'Security Monitor']
-    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const smartCameraApps = []
     data.forEach(product => {
         apps.forEach(app => {
@@ -68,7 +68,7 @@ router.get('/smart-camera', async (req, res) => {
 
 router.get('/metaverse', async (req, res) => {
     const apps = ['Face Swap', '3D Modelling', '3D Movie', 'Virtual Human']
-    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const metaverseApps = []
     data.forEach(product => {
         apps.forEach(app => {
@@ -82,7 +82,7 @@ router.get('/metaverse', async (req, res) => {
 
 router.get('/commerce', async (req, res) => {
     const apps = ['Face Swap', '3D Modelling', 'Image Search']
-    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const commerceApps = []
     data.forEach(product => {
         apps.forEach(app => {
@@ -96,7 +96,7 @@ router.get('/commerce', async (req, res) => {
 
 router.get('/entertainment', async (req, res) => {
     const apps = ['Face Swap', '3D Modelling', 'Text to Photo']
-    const { data } = await axios.get('http://localhost:5000/api/tools/all')
+    const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const commerceApps = []
     data.forEach(product => {
         apps.forEach(app => {

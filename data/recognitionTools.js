@@ -126,7 +126,7 @@ export const recognitionTools = [
         logo: "/images/recognition/Product Recognition/logo.png",
         rating: 5,
         link: "",
-        about: "It can recognize over 100 thousand kinds of objects and scenarios precisely, including more than ten high-precision image recognition abilities. Also, it can offer related API services and fully meet developers and enterprise users' application requirements.",
+        about: "It can recognize over 100 thousand kinds of objects and scenarios precisely, including more than ten high-precision image recognition abilities. Also, it can offer related API services and fully meet developers and enterprise user's application requirements.",
         aboutImage: "/images/Product Images/Product Recognition 1.png",
         goal: "It can analyze the images of the web pages when users are browsing, Through recognizing the information of images, it can recommend relevant contents to the users, or show relevant advertisements on the web page to improve the advertisement click rate. It can be applied for such business scenarios as news information service, information search service, video Apps. and personalized recommendations.",
         goalImage: "/images/Product Images/Product Recognition 2.png",

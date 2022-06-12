@@ -47,6 +47,10 @@ const RegisterScreen = () => {
             timeoutToastMessage('Please write your last name!')
             setLoading(false)
         }
+        else if (!email.trim()) {
+            timeoutToastMessage("Please enter the email.")
+            setLoading(false)
+        }
         else if (!passwordPattern.test(password)) {
             timeoutToastMessage("Password should contain one letter, one number, and longer than 3.")
             setLoading(false)
