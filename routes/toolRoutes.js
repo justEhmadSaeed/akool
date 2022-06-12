@@ -62,8 +62,9 @@ router.get('/smart-camera', async (req, res) => {
             }
         })
     })
-    res.send(JSON.stringify(smartCameraApps))
+    res.send(smartCameraApps)
 })
+
 
 router.get('/metaverse', async (req, res) => {
     const apps = ['3D Modelling', '3D Movie', 'Virtual Human']
@@ -76,21 +77,7 @@ router.get('/metaverse', async (req, res) => {
             }
         })
     })
-    res.send(JSON.stringify(metaverseApps))
-})
-
-router.get('/metaverse', async (req, res) => {
-    const apps = ['3D Modelling', '3D Movie', 'Virtual Human']
-    const { data } = await axios.get('http://localhost:5000/api/tools/all')
-    const metaverseApps = []
-    data.forEach(product => {
-        apps.forEach(app => {
-            if (product.title.includes(app)) {
-                metaverseApps.push(product)
-            }
-        })
-    })
-    res.send(JSON.stringify(metaverseApps))
+    res.send(metaverseApps)
 })
 
 router.get('/commerce', async (req, res) => {
@@ -104,7 +91,7 @@ router.get('/commerce', async (req, res) => {
             }
         })
     })
-    res.send(JSON.stringify(commerceApps))
+    res.send(commerceApps)
 })
 
 router.get('/entertainment', async (req, res) => {
@@ -118,7 +105,7 @@ router.get('/entertainment', async (req, res) => {
             }
         })
     })
-    res.send(JSON.stringify(commerceApps))
+    res.send(commerceApps)
 })
 
 router.get('/all', async (req, res) => {
