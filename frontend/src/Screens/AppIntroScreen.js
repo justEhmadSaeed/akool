@@ -82,10 +82,11 @@ const AppIntroScreen = () => {
                         <div className="app_intro_custom_container">
                             <div className="row">
                                 <div className="app_about_bottom_section d-flex align-items-center justify-content-between">
-                                    <div className="about_text_part">
-                                        <h3 className='app-intro-h3'>About the App</h3>
-                                        <p>{product.about}</p>
-                                    </div>
+                                    {product.about &&
+                                        <div className="about_text_part">
+                                            <h3 className='app-intro-h3'>About the App</h3>
+                                            <p>{product.about}</p>
+                                        </div>}
                                     <div className="about_image_part">
                                         <img src={product.aboutImage} alt="about" className="img-fluid" />
                                     </div>
@@ -102,10 +103,11 @@ const AppIntroScreen = () => {
                                         <div className="about_image_part">
                                             <img src={product.goalImage} alt="about" className="img-fluid" />
                                         </div>
-                                        <div className="about_text_part">
-                                            <h3 className='app-intro-h3'>What's our main goal?</h3>
-                                            <p>{product.goal}</p>
-                                        </div>
+                                        {product.goal &&
+                                            <div className="about_text_part">
+                                                <h3 className='app-intro-h3'>What's our main goal?</h3>
+                                                <p>{product.goal}</p>
+                                            </div>}
                                     </div>
                                 </div>
                             </div>

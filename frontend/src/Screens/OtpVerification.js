@@ -42,14 +42,12 @@ export const OtpVerification = () => {
     }
 
     const resendOtp = () => {
-        setLoading(true)
         axios.get('https://api.akool.com/api/v1/user/resend_otp',
             { headers: { 'Authorization': localStorage.getItem('token') } })
             .then(({ data }) => {
                 timeoutToastMessage('Otp Successfully Resend', 3000, 'success')
             })
             .catch(err => {
-                setLoading(false)
                 console.log(err)
             })
     }

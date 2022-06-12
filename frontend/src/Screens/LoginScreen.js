@@ -112,10 +112,10 @@ const LoginScreen = () => {
                         <i onClick={() => showPassword ? setShowPassword(false) : setShowPassword(true)} className={`${passwordShowIcon} position-absolute fs-5`} style={{ right: '1rem', top: '1.3rem', zIndex: '99', cursor: 'pointer' }} />
                     </div>
                 </div>
-                <div className="form-group my-2">
+                {/* <div className="form-group my-2">
                     <input type="checkbox" id="css" />
                     <label className='mx-2' htmlFor="css">Remember Me </label>
-                </div>
+                </div> */}
 
                 <div className="log-bt">
                     <button type="submit">

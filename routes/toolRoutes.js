@@ -67,7 +67,7 @@ router.get('/smart-camera', async (req, res) => {
 
 
 router.get('/metaverse', async (req, res) => {
-    const apps = ['3D Modelling', '3D Movie', 'Virtual Human']
+    const apps = ['Face Swap', '3D Modelling', '3D Movie', 'Virtual Human']
     const { data } = await axios.get('http://localhost:5000/api/tools/all')
     const metaverseApps = []
     data.forEach(product => {
