@@ -62,8 +62,7 @@ const MetaverseScreen = () => {
                         <div className="col-lg-6">
                             <div className="heading_text_section">
                                 <h3 className="mb-0">Top Selected Metaverse Apps</h3>
-                                <p className="mb-0">Akool video solutions enpower live video analytics from security camera, webcam,
-                                    phone camera, et al. Hardware is optional.</p>
+                                <p className="mb-0">Akool Metaverse provide these following apps.</p>
                             </div>
                         </div>
                     </div>

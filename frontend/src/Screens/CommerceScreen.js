@@ -62,8 +62,8 @@ const CommerceScreen = () => {
                         <div className="col-lg-6">
                             <div className="heading_text_section">
                                 <h3 className="mb-0">Top Selected Commerce Apps</h3>
-                                <p className="mb-0">Akool video solutions enpower live video analytics from security camera, webcam,
-                                    phone camera, et al. Hardware is optional.</p>
+                                <p className="mb-0">Akool Commerce solutions provide these following apps.</p>
+
                             </div>
                         </div>
                     </div>

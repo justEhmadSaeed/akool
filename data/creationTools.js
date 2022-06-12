@@ -111,7 +111,7 @@ export const creationTools =
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
-                    name: "PT Bma Sarana Sukses (BSS)",
+                    name: "PT. Bina Sarana Sukses (BSS)",
                     description: "BSS adopted a cloud-first strategy for new systems such as ERP on SAP S/4 HANA. Certified Elastic Compute Service (ECS) R5 instances is applied to running high-performance databases and in-memory workloads. Overall, migration to the cloud has helped BSS to jump start digital transformation while also achieving a lower TCO.",
                     rating: 4,
                 },
