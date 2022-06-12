@@ -83,7 +83,6 @@ export const recognitionTools = [
         link: "",
         about: "Image Search allows your users to search by image based on image similarities. Image Search uses deep learning and machine vision to capture characteristics of images and then search for images based on the captured information",
         aboutImage: "/images/Product Images/Image Search 1.png",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
         goalImage: "/images/Product Images/Image Search 2.png",
         testimonials: [
             {
@@ -167,7 +166,6 @@ export const recognitionTools = [
         link: "",
         about: "CloudMonitor collects monitor metrics of AKOOL Cloud resources and custom metrics. The service can be used to detect the availability of your service and allows you to set alarms on specific metrics. CloudMonitor enables you to view and fully understand the usage of the cloud resources, and the status and health of your business, so that you can act promptly to ensure the availability of your application when an alarm is triggered.",
         aboutImage: "/images/Product Images/Security Monitor 1.png",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
         goalImage: "/images/Product Images/Security Monitor 2.png",
         testimonials: [
             {

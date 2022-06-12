@@ -6,12 +6,10 @@ export const creationTools =
             logo: "/images/creation/3D Modelling/logo.png",
             rating: 5,
             link: "https://console.akool.com/3d",
-            about: `Akool 3D modeling is an e-commerce sharing service brand of professional 3D materials and design resources under akool. The founder is Mr. lvjiajun. The main services include 3D models, Su models and other material resources, design cases, quick cloud rendering, rendering orders, VR panoramic synthesis, etc. App digital resources are widely used in film and television animation, game production, e-commerce and other application scenarios.
-            3D models available for download from car to humans 3D assets. Available in number of file formats including MAX, OBJ, FBX, 3DS, STL, C4D, BLEND, MA, MB. Find professional 3D models for any 3D design projects like virtual reality (VR), augmented reality (AR), games, 3D architecture visualization or animation.
-            `,
-            aboutImage: "/images/app_intro_about.png",
-            goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            goalImage: "/images/about_section_two.png",
+            about: `Akool 3D modeling is an e-commerce sharing service brand of professional 3D materials and design resources under akool. The founder is Mr. lvjiajun. The main services include 3D models, Su models and other material resources, design cases, quick cloud rendering, rendering orders, VR panoramic synthesis, etc. App digital resources are widely used in film and television animation, game production, e-commerce and other application scenarios.`,
+            aboutImage: "/images/3d(1).png",
+            goal: "3D models available for download from car to humans 3D assets. Available in number of file formats including MAX, OBJ, FBX, 3DS, STL, C4D, BLEND, MA, MB. Find professional 3D models for any 3D design projects like virtual reality (VR), augmented reality (AR), games, 3D architecture visualization or animation.",
+            goalImage: "/images/3d(2).png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
@@ -50,9 +48,7 @@ export const creationTools =
             logo: "/images/creation/3D Movie/logo.png",
             rating: 5,
             link: "https://console.akool.com/video",
-            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             aboutImage: '/images/Product Images/3d Movie 1.png',
-            goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             goalImage: "/images/Product Images/3d Movie 2.png",
             testimonials: [
                 {
@@ -75,10 +71,10 @@ export const creationTools =
             logo: "/images/creation/Face Swap/logo.png",
             rating: 5,
             link: "https://faceswap.akool.com",
-            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            aboutImage: "/images/app_intro_about.png",
-            goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            goalImage: "/images/about_section_two.png",
+            about: "",
+            aboutImage: "/images/face swap (1).png",
+            goal: "",
+            goalImage: "/images/face swap (2).png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
@@ -110,9 +106,8 @@ export const creationTools =
             logo: "/images/creation/SaaS App Creation Tools/logo.png",
             rating: 5,
             about: "By integrating the OpenAPI of akool cloud database products and tools, industry software providers can create database instances with one click, create tenant dB, tenant DB migration, tenant data subscription, tenant DB backup I recovery, real­ time report analysis, multi environment structure synchronization and other functions",
-            aboutImage: "/images/app_intro_about.png",
-            goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            goalImage: "/images/about_section_two.png",
+            aboutImage: "/images/saas (1).png",
+            goalImage: "/images/saas (2).png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
@@ -144,9 +139,8 @@ export const creationTools =
             logo: "/images/creation/Text to Photo/logo.png",
             rating: 5,
             about: "Through akool's text to photo platform, you can quickly convert text to pictures. Through Al algorithm, the content of text description is presented in the form of pictures.",
-            aboutImage: "/images/app_intro_about.png",
-            goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
-            goalImage: "/images/about_section_two.png",
+            aboutImage: "/images/text to photo (1).png",
+            goalImage: "/images/text to photo (2).png",
             testimonials: [
                 {
                     image: "/images/app_intro_content.png",
@@ -186,7 +180,6 @@ export const creationTools =
             about: `When avatars are no longer just pixels, they rise up to be virtual humans. We believe virtual humans have a higher calling. Our applications enable virtual humans to fulfill their ambitions of helping people. We also conduct and collaborate avatar
             based research that helps us better understand people and virtual humans.`,
             aboutImage: "/images/Product Images/Virtual Human 1.png",
-            goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor viverra sollicitudin. Pellentesque velit tellus, cursus at scelerisque nec, elementum at diam",
             goalImage: "/images/Product Images/Virtual Human 2.png",
             testimonials: [
                 {
