@@ -5,7 +5,7 @@ export const creationTools =
             description: "Create 3d models (glb, usdz) with several input images or an input video with one click. Deployment options available. ",
             logo: "/images/creation/3D Modelling/logo.png",
             rating: 5,
-            link: "https://console.akool.com/3d",
+            link: "https://console.akool.com/meshvideo",
             about: `Akool 3D modeling is an e-commerce sharing service brand of professional 3D materials and design resources under akool. The founder is Mr. lvjiajun. The main services include 3D models, Su models and other material resources, design cases, quick cloud rendering, rendering orders, VR panoramic synthesis, etc. App digital resources are widely used in film and television animation, game production, e-commerce and other application scenarios.`,
             aboutImage: "/images/3d(1).png",
             goal: "3D models available for download from car to humans 3D assets. Available in number of file formats including MAX, OBJ, FBX, 3DS, STL, C4D, BLEND, MA, MB. Find professional 3D models for any 3D design projects like virtual reality (VR), augmented reality (AR), games, 3D architecture visualization or animation.",
@@ -47,7 +47,7 @@ export const creationTools =
             description: "Convert regular videos into 3D stereo video for 3D realistic viewing experiences. State of the art AI powered fully automated solution. ",
             logo: "/images/creation/3D Movie/logo.png",
             rating: 5,
-            link: "https://console.akool.com/video",
+            link: "https://console.akool.com/meshimage",
             aboutImage: '/images/Product Images/3d Movie 1.png',
             goalImage: "/images/Product Images/3d Movie 2.png",
             testimonials: [
