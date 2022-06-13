@@ -26,11 +26,13 @@ router.get('/3d', async (req, res) => {
 })
 
 router.get('/creation', async (req, res) => {
+    await ApiCalls.findOneAndUpdate("/tools/creation", { $inc: { "/tools/creation": 1 } })
     const creationTools = await getCreationTools()
     res.send(creationTools)
 })
 
 router.get('/recognition', async (req, res) => {
+    await ApiCalls.findOneAndUpdate("/tools/recognition", { $inc: { "/tools/recognition": 1 } })
     const recognitionTools = await getRecognitionTools()
     res.send(recognitionTools)
 })
@@ -41,6 +43,7 @@ router.get('/apiCalls', async (req, res) => {
 })
 
 router.post('/find/:title', async (req, res) => {
+    await ApiCalls.findOneAndUpdate("/tools/find/:title", { $inc: { "/tools/find/:title": 1 } })
     const title = req.params.title
     try {
         const creationTools = await CreationTool.find({ title })
@@ -60,6 +63,7 @@ router.post('/find/:title', async (req, res) => {
 
 router.get('/smart-camera', async (req, res) => {
     const apps = ['Face Recognition', 'Product Recognition', 'Security Monitor']
+    await ApiCalls.findOneAndUpdate("/tools/smart-camera", { $inc: { "/tools/smart-camera": 1 } })
     const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const smartCameraApps = []
     data.forEach(product => {
@@ -75,6 +79,7 @@ router.get('/smart-camera', async (req, res) => {
 
 router.get('/metaverse', async (req, res) => {
     const apps = ['Face Swap', '3D Modelling', '3D Movie', 'Virtual Human']
+    await ApiCalls.findOneAndUpdate("/tools/metaverse", { $inc: { "/tools/metaverse": 1 } })
     const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const metaverseApps = []
     data.forEach(product => {
@@ -88,6 +93,7 @@ router.get('/metaverse', async (req, res) => {
 })
 
 router.get('/commerce', async (req, res) => {
+    await ApiCalls.findOneAndUpdate("/tools/commerce", { $inc: { "/tools/commerce": 1 } })
     const apps = ['Face Swap', '3D Modelling', 'Image Search']
     const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const commerceApps = []
@@ -102,6 +108,7 @@ router.get('/commerce', async (req, res) => {
 })
 
 router.get('/entertainment', async (req, res) => {
+    await ApiCalls.findOneAndUpdate("/tools/entertainment", { $inc: { "/tools/entertainment": 1 } })
     const apps = ['Face Swap', '3D Modelling', 'Text to Photo']
     const { data } = await axios.get('http://localhost:8080/api/tools/all')
     const commerceApps = []
@@ -116,6 +123,7 @@ router.get('/entertainment', async (req, res) => {
 })
 
 router.get('/all', async (req, res) => {
+    await ApiCalls.findOneAndUpdate("/tools/all", { $inc: { "/tools/all": 1 } })
     let allProducts = []
     const creationTools = await getCreationTools()
     const recognitionTools = await getRecognitionTools()
