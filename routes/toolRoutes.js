@@ -134,8 +134,12 @@ router.get('/all', async (req, res) => {
 
 
 router.get('/userApiCalls', async (req, res) => {
-    const userApiCalls = await UserApiCall.find({});
-    res.send(userApiCalls)
+    try {
+        const userApiCalls = await UserApiCall.find({});
+        res.send(JSON.stringify(userApiCalls))
+    } catch (error) {
+        res.send(error)
+    }
 })
 
 router.post('/userApiCalls', async (req, res) => {
@@ -143,7 +147,23 @@ router.post('/userApiCalls', async (req, res) => {
         const userApiCalls = await UserApiCall.insertMany(req.body);
         res.send(userApiCalls)
     } catch (error) {
-        res.send(JSON.stringify(error))
+        res.send(JSON.stringify(error.writeErrors[0].errmsg ? error.writeErrors[0].errmsg : 'ERROR'))
+    }
+})
+
+router.put('/userApiCalls', async (req, res) => {
+    try {
+        const userId = req.body.userId;
+        const alreadyExists = await UserApiCall.findOne({ userId })
+        if (alreadyExists) {
+            const updateRecord = await UserApiCall.findOneAndUpdate({ userId }, { api: req.body.api }, { upsert: true })
+            res.send(updateRecord)
+        }
+        else {
+            res.send(JSON.stringify({ message: 'No such user exists' }))
+        }
+    } catch (error) {
+        res.send(JSON.stringify(error.writeErrors[0].errmsg ? error.writeErrors[0].errmsg : 'ERROR'))
     }
 })
 
