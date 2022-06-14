@@ -9,6 +9,7 @@ import { creationTools } from './data/creationTools.js'
 import { recognitionTools } from './data/recognitionTools.js'
 import { topApps } from './data/topApps.js'
 import { _3dApps } from './data/3dApps.js'
+import UserApiCall from './models/userApiCallModel.js'
 
 dotenv.config()
 connectDB()
@@ -17,13 +18,15 @@ const importData = async () => {
     try {
         await CreationTool.deleteMany()
         await RecognitionTool.deleteMany()
-        await ApiCalls.deleteMany()
+        await UserApiCall.deleteMany()
+        // await ApiCalls.deleteMany()
+
         // await TopApp.deleteMany()
         // await _3dApp.deleteMany()
 
         await CreationTool.insertMany(creationTools)
         await RecognitionTool.insertMany(recognitionTools)
-        await ApiCalls.insertMany()
+        // await ApiCalls.insertMany()
         // await TopApp.insertMany(topApps)
         // await _3dApp.insertMany(_3dApps)
 

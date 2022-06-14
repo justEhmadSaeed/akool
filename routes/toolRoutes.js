@@ -5,6 +5,7 @@ import ApiCalls from '../models/apiCalls.js'
 import CreationTool from '../models/creationToolModel.js'
 import RecognitionTool from '../models/recognitionToolModel.js'
 import TopApp from '../models/topAppModel.js'
+import UserApiCall from '../models/userApiCallModel.js'
 const router = express.Router()
 
 const getCreationTools = async () => {
@@ -130,6 +131,22 @@ router.get('/all', async (req, res) => {
     allProducts = [...creationTools, ...recognitionTools]
     res.send(allProducts)
 })
+
+
+router.get('/userApiCalls', async (req, res) => {
+    const userApiCalls = await UserApiCall.find({});
+    res.send(userApiCalls)
+})
+
+router.post('/userApiCalls', async (req, res) => {
+    try {
+        const userApiCalls = await UserApiCall.insertMany(req.body);
+        res.send(userApiCalls)
+    } catch (error) {
+        res.send(JSON.stringify(error))
+    }
+})
+
 
 router.get("/", (req, res) => {
     res.send("Sending Tool Routes")
