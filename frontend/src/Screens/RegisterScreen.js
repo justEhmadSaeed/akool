@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { Navigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import Helmet from 'react-helmet'
@@ -30,6 +30,7 @@ const RegisterScreen = () => {
         setToastMessage(message)
 
     }
+    const navigate = useNavigate();
 
     const handleRegister = (e) => {
         e.preventDefault()
@@ -69,11 +70,13 @@ const RegisterScreen = () => {
             axios.post('https://api.akool.com/api/v1/public/register', data)
                 .then((res) => {
                     setConfirmRegistration(true)
-                    setTimeout(() => {
-                        setConfirmRegistration(false)
-                    }, 4000);
-                    console.log(res);
+                    // setTimeout(() => {
+                    // }, 4000);
+                    // console.log(res);
                     setLoading(false)
+                    setConfirmRegistration(false)
+                    localStorage.setItem('token', data.token)
+                    navigate('/otp')
                 })
                 .catch(err => {
                     timeoutToastMessage('Error Occurred. Please try again.')
